@@ -166,17 +166,17 @@ def check_api_status() -> Dict[str, bool]:
     return status
 
 def get_nansen_smart_money() -> Optional[dict]:
-    """Fetch Smart Money data from Nansen API."""
+    """Fetch Smart Money holdings from Nansen API."""
     if not NANSEN_API_KEY:
         return None
     try:
         headers = {
-            "Authorization": f"Bearer {NANSEN_API_KEY}",
+            "apikey": NANSEN_API_KEY,
             "Content-Type": "application/json"
         }
-        # Get Smart Money token flows
-        url = f"{NANSEN_BASE_URL}/smart-money/token-flows"
-        response = requests.post(url, headers=headers, json={"chain": "ethereum", "limit": 5}, timeout=10)
+        # Get Smart Money holdings
+        url = f"{NANSEN_BASE_URL}/api/v1/smart-money/holdings"
+        response = requests.post(url, headers=headers, json={"chains": ["ethereum"]}, timeout=15)
         if response.status_code == 200:
             return response.json()
     except Exception:
@@ -189,11 +189,11 @@ def get_nansen_top_tokens() -> Optional[list]:
         return None
     try:
         headers = {
-            "Authorization": f"Bearer {NANSEN_API_KEY}",
+            "apikey": NANSEN_API_KEY,
             "Content-Type": "application/json"
         }
-        url = f"{NANSEN_BASE_URL}/token-god-mode/tokens"
-        response = requests.post(url, headers=headers, json={"chain": "all", "limit": 5}, timeout=10)
+        url = f"{NANSEN_BASE_URL}/api/v1/tgm/tokens"
+        response = requests.post(url, headers=headers, json={"chains": ["ethereum"], "limit": 5}, timeout=15)
         if response.status_code == 200:
             return response.json().get("data", [])
     except Exception:
@@ -666,20 +666,23 @@ def fetch_nansen_detailed():
     
     try:
         headers = {
-            "Authorization": f"Bearer {NANSEN_API_KEY}",
+            "apikey": NANSEN_API_KEY,
             "Content-Type": "application/json"
         }
         
-        # Try Smart Money endpoint
-        url = f"{NANSEN_BASE_URL}/smart-money/tokens"
-        response = requests.post(url, headers=headers, json={"chain": "ethereum", "limit": 10}, timeout=15)
+        # Try Smart Money holdings endpoint
+        url = f"{NANSEN_BASE_URL}/api/v1/smart-money/holdings"
+        response = requests.post(url, headers=headers, json={"chains": ["ethereum"]}, timeout=15)
         
         if response.status_code == 200:
             data = response.json()
             print(f"\n  {Colors.GREEN}✓ Data retrieved successfully!{Colors.ENDC}")
-            print(f"\n  {Colors.BOLD}Smart Money Top Tokens:{Colors.ENDC}")
+            print(f"\n  {Colors.BOLD}Smart Money Top Holdings:{Colors.ENDC}")
             for token in data.get("data", [])[:5]:
-                print(f"     • {token}")
+                symbol = token.get("token_symbol", "???")
+                value = token.get("value_usd", 0)
+                holders = token.get("holders_count", 0)
+                print(f"     • {symbol}: ${value/1e6:.1f}M ({holders} wallets)")
         else:
             print(f"  {Colors.YELLOW}API returned status {response.status_code}{Colors.ENDC}")
             print(f"  {Colors.DIM}Response: {response.text[:200]}{Colors.ENDC}")
