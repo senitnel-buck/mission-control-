@@ -1,0 +1,107 @@
+{
+  "items": [
+    {
+      "id": "x-2026-02-07-001",
+      "platform": "x",
+      "type": "macro-take",
+      "status": "drafted",
+      "title": "Warsh nomination regime change",
+      "content": "The Warsh nomination changes everything.\n\n\"Higher for longer\" just became policy, not speculation.\n\nMeanwhile, Treasury is actively draining liquidity via TGA replenishment.\n\nTwo headwinds. One direction.\n\nThis isn't a dip. It's a regime change.",
+      "created": "2026-02-07",
+      "scheduledFor": "2026-02-08 07:00",
+      "postedAt": null,
+      "postUrl": null,
+      "metrics": {
+        "impressions": null,
+        "engagement": null,
+        "followers": null
+      }
+    },
+    {
+      "id": "x-2026-02-07-002",
+      "platform": "x",
+      "type": "crypto-insight",
+      "status": "drafted",
+      "title": "BTC -30% liquidity story",
+      "content": "BTC down 30% in a week.\n\nNot because of crypto news.\nBecause liquidity is leaving the building.\n\nTGA draining. Hawkish Fed incoming. Risk-off across the board.\n\nThis is macro, not micro.\n\nWhen liquidity contracts, BTC acts like a leveraged Nasdaq bet.\n\nBecause that's what it is.",
+      "created": "2026-02-07",
+      "scheduledFor": "2026-02-08 09:00",
+      "postedAt": null,
+      "postUrl": null,
+      "metrics": {
+        "impressions": null,
+        "engagement": null,
+        "followers": null
+      }
+    },
+    {
+      "id": "x-2026-02-07-003",
+      "platform": "x",
+      "type": "meme",
+      "status": "idea",
+      "title": "Liquidity leaving the building meme",
+      "content": "Top: When the Fed says \"higher for longer\"\nBottom: Liquidity has left the building\n\n[Elvis leaving building style]",
+      "created": "2026-02-07",
+      "scheduledFor": null,
+      "postedAt": null,
+      "postUrl": null,
+      "metrics": {
+        "impressions": null,
+        "engagement": null,
+        "followers": null
+      }
+    },
+    {
+      "id": "li-2026-02-07-001",
+      "platform": "linkedin",
+      "type": "pov",
+      "status": "idea",
+      "title": "AI in Procurement - Organizational Challenge",
+      "content": "Most procurement teams aren't ready for AI.\n\nNot because of technology. Because of structure.\n\nI've seen $50M savings opportunities die in committee because:\n\u2192 No clear AI owner\n\u2192 IT vs. Procurement turf wars\n\u2192 \"We've always done it this way\"\n\nThe winners? They create a small, empowered team. 3-5 people. Direct exec sponsor. Authority to experiment.\n\nAI doesn't fail at procurement.\n\nOrganizations fail at change management.\n\n[Link: SCMR article on AI readiness]",
+      "created": "2026-02-07",
+      "scheduledFor": null,
+      "postedAt": null,
+      "postUrl": null,
+      "metrics": {
+        "impressions": null,
+        "engagement": null,
+        "followers": null
+      }
+    },
+    {
+      "id": "li-2026-02-07-002",
+      "platform": "linkedin",
+      "type": "tactical",
+      "status": "idea",
+      "title": "Predictive vs Reactive Supply Chains",
+      "content": "Every CPO says they want predictive procurement.\n\nBut here's what their tech stack actually does:\n\u2192 Reactive alerts after the problem\n\u2192 Historical dashboards showing what broke\n\u2192 Manual escalation paths\n\nPredictive means:\n\u2192 Risk signals before disruption\n\u2192 Automated scenario modeling\n\u2192 Pre-approved contingency actions\n\nThe gap isn't AI. It's process redesign.\n\nYou can't bolt predictive onto a reactive org.",
+      "created": "2026-02-07",
+      "scheduledFor": null,
+      "postedAt": null,
+      "postUrl": null,
+      "metrics": {
+        "impressions": null,
+        "engagement": null,
+        "followers": null
+      }
+    },
+    {
+      "id": "x-2026-02-07-004",
+      "platform": "x",
+      "type": "one-liner",
+      "status": "idea",
+      "title": "Fed doesn't care",
+      "content": "The Fed doesn't care about your bags.",
+      "created": "2026-02-07",
+      "scheduledFor": null,
+      "postedAt": null,
+      "postUrl": null,
+      "metrics": {
+        "impressions": null,
+        "engagement": null,
+        "followers": null
+      }
+    }
+  ],
+  "lastUpdated": "2026-02-07T12:00:28.581374"
+}
