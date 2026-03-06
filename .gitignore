@@ -1,0 +1,51 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs (keep structure with .gitkeep)
+logs/*.log
+logs/*.out
+
+# Sensitive config
+config/fred-config.json  # Contains API keys
+.env
+.env.local
+
+# Data files (temporary, will be archived)
+data/fred/raw/*.json
+data/nasen/raw/*.json
+data/fmoc/raw/*.json
+
+# Telemetry and diagnostics (transient)
+telemetry/daily/YYYY-MM-DD/
+diagnostics/taylor/
+
+# Alerts (active/resolved kept, archive deleted)
+alerts/active/*.json
+alerts/resolved/*.json
+
+# Python package files
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups (handled by Taylor's backup system)
+*.bak
+*.backup

@@ -1,0 +1,15 @@
+# Marcus Phase 1 MVP Dependencies
+
+# HTTP client for API calls
+requests==2.31.0
+
+# Data analysis (added for future phases)
+pandas==2.0.0
+numpy==1.24.0
+scipy==1.10.0
+
+# Statistical analysis
+statsmodels==0.14.0
+
+# Visualization (optional for Phase 2)
+matplotlib==3.7.0

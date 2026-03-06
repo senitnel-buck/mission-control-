@@ -1,0 +1,33 @@
+{
+  "fred": {
+    "api_key": "YOUR_FRED_API_KEY_HERE",
+    "endpoint": "https://api.stlouisfed.org/fred",
+    "series": {
+      "FEDFUNDS": {
+        "name": "Federal Funds Rate",
+        "description": "Interest rate set by Federal Reserve"
+      },
+      "UNRATE": {
+        "name": "Unemployment Rate",
+        "description": "Civilian unemployment rate"
+      },
+      "CPIAUCSL": {
+        "name": "CPI - All Urban Consumers",
+        "description": "Inflation indicator"
+      },
+      "A191RL1Q225SBEA": {
+        "name": "Real GDP",
+        "description": "Quarterly real gross domestic product"
+      },
+      "MORTGAGE30US": {
+        "name": "30-Year Mortgage Rate",
+        "description": "Primary mortgage market survey"
+      }
+    },
+    "anomaly_thresholds": {
+      "zscore_critical": 3.0,
+      "zscore_warning": 2.0,
+      "baseline_window_days": 30
+    }
+  }
+}
