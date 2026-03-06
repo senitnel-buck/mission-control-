@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-06T23:52:57.909369Z",
+  "date": "2026-03-06",
+  "sources": {
+    "twitter": {
+      "signals": [],
+      "status": "ingestion_pending",
+      "notes": "Twitter API integration in Phase 2"
+    },
+    "github": {
+      "signals": [],
+      "status": "ingestion_pending",
+      "notes": "GitHub API integration in Phase 2"
+    },
+    "discord": {
+      "signals": [],
+      "status": "webhook_monitoring",
+      "notes": "Discord webhook monitoring in Phase 2"
+    },
+    "web": {
+      "signals": [],
+      "status": "firecrawl_pending",
+      "notes": "Firecrawl web extraction in Phase 2"
+    }
+  }
+}

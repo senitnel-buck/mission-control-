@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-06T23:52:57.909558Z",
+  "source": "scout",
+  "status": "healthy",
+  "metrics": {
+    "signals_ingested": 0,
+    "sources_monitored": 4
+  },
+  "notes": "Phase 1: Structure ready, API integration pending Phase 2"
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-03-06T23:52:57.925213Z",
+  "date": "2026-03-06",
+  "scoring_version": 1,
+  "algorithm": "z-score",
+  "baseline_window_days": 30,
+  "signals": [
+    {
+      "source": "twitter",
+      "signal_name": "twitter_sample",
+      "frequency_today": 0,
+      "baseline_frequency": 0,
+      "velocity_score": 0,
+      "velocity_band": "LOW",
+      "confidence": 0.0,
+      "notes": "Phase 1: Ready for Phase 2 API integration"
+    },
+    {
+      "source": "github",
+      "signal_name": "github_sample",
+      "frequency_today": 0,
+      "baseline_frequency": 0,
+      "velocity_score": 0,
+      "velocity_band": "LOW",
+      "confidence": 0.0,
+      "notes": "Phase 1: Ready for Phase 2 API integration"
+    },
+    {
+      "source": "discord",
+      "signal_name": "discord_sample",
+      "frequency_today": 0,
+      "baseline_frequency": 0,
+      "velocity_score": 0,
+      "velocity_band": "LOW",
+      "confidence": 0.0,
+      "notes": "Phase 1: Ready for Phase 2 API integration"
+    },
+    {
+      "source": "web",
+      "signal_name": "web_sample",
+      "frequency_today": 0,
+      "baseline_frequency": 0,
+      "velocity_score": 0,
+      "velocity_band": "LOW",
+      "confidence": 0.0,
+      "notes": "Phase 1: Ready for Phase 2 API integration"
+    }
+  ],
+  "summary": {
+    "total_signals": 0,
+    "critical_count": 0,
+    "high_count": 0,
+    "medium_count": 0,
+    "low_count": 0
+  }
+}

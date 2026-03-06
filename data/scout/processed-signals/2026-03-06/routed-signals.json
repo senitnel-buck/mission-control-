@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-06T23:52:57.937064Z",
+  "date": "2026-03-06",
+  "routing_summary": {
+    "total_signals": 4,
+    "routed_to_marcus": 0,
+    "routed_to_sterling": 0,
+    "routed_to_aegis": 0,
+    "routed_to_taylor": 0,
+    "routed_to_sentinel": 4
+  },
+  "routing": [
+    {
+      "signal_id": "twitter_sample",
+      "velocity_band": "LOW",
+      "destinations": [
+        "sentinel"
+      ]
+    },
+    {
+      "signal_id": "github_sample",
+      "velocity_band": "LOW",
+      "destinations": [
+        "sentinel"
+      ]
+    },
+    {
+      "signal_id": "discord_sample",
+      "velocity_band": "LOW",
+      "destinations": [
+        "sentinel"
+      ]
+    },
+    {
+      "signal_id": "web_sample",
+      "velocity_band": "LOW",
+      "destinations": [
+        "sentinel"
+      ]
+    }
+  ]
+}
