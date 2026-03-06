@@ -1,6 +1,6 @@
 {
   "fred": {
-    "api_key": "YOUR_FRED_API_KEY_HERE",
+    "api_key": "378ecdf9e5e12073fd197df7e6556527",
     "endpoint": "https://api.stlouisfed.org/fred",
     "series": {
       "FEDFUNDS": {

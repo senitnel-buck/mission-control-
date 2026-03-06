@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-06T23:26:42.723595Z",
+  "source": "fred",
+  "status": "healthy",
+  "metrics": {
+    "total_series": 5,
+    "successful_fetches": 5,
+    "failed_fetches": 0,
+    "success_rate": 1.0
+  },
+  "notes": "Fetched 5 of 5 FRED series"
+}

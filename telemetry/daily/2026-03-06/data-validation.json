@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-03-06T23:26:46.532377Z",
+  "source": "fred",
+  "validations": {
+    "FEDFUNDS": {
+      "file": "2026-03-06_FEDFUNDS.json",
+      "status": "YELLOW",
+      "checks": {
+        "data_exists": true,
+        "observation_count": 860,
+        "schema_valid": true,
+        "latest_date": "2026-02-01",
+        "freshness": "STALE (33 days old)",
+        "latest_value": 3.64,
+        "zscore": -1.75
+      },
+      "series_id": "FEDFUNDS"
+    },
+    "CPIAUCSL": {
+      "file": "2026-03-06_CPIAUCSL.json",
+      "status": "YELLOW",
+      "checks": {
+        "data_exists": true,
+        "observation_count": 949,
+        "schema_valid": true,
+        "latest_date": "2026-01-01",
+        "freshness": "STALE (64 days old)",
+        "latest_value": 326.588,
+        "zscore": 1.7
+      },
+      "series_id": "CPIAUCSL"
+    },
+    "UNRATE": {
+      "file": "2026-03-06_UNRATE.json",
+      "status": "YELLOW",
+      "checks": {
+        "data_exists": true,
+        "observation_count": 938,
+        "schema_valid": true,
+        "latest_date": "2026-02-01",
+        "freshness": "STALE (33 days old)",
+        "latest_value": 4.4,
+        "zscore": 1.31
+      },
+      "series_id": "UNRATE"
+    },
+    "A191RL1Q225SBEA": {
+      "file": "2026-03-06_A191RL1Q225SBEA.json",
+      "status": "YELLOW",
+      "checks": {
+        "data_exists": true,
+        "observation_count": 315,
+        "schema_valid": true,
+        "latest_date": "2025-10-01",
+        "freshness": "STALE (156 days old)",
+        "latest_value": 1.4,
+        "zscore": -0.16
+      },
+      "series_id": "A191RL1Q225SBEA"
+    },
+    "MORTGAGE30US": {
+      "file": "2026-03-06_MORTGAGE30US.json",
+      "status": "GREEN",
+      "checks": {
+        "data_exists": true,
+        "observation_count": 2867,
+        "schema_valid": true,
+        "latest_date": "2026-03-05",
+        "freshness": "CURRENT",
+        "latest_value": 6.0,
+        "zscore": -1.43
+      },
+      "series_id": "MORTGAGE30US"
+    }
+  },
+  "quality_tier": "YELLOW"
+}

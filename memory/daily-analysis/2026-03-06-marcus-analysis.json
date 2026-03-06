@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-03-06T23:26:52.699436Z",
+  "date": "2026-03-06",
+  "signals": [
+    {
+      "series_id": "UNRATE",
+      "name": "Unemployment Rate",
+      "latest_value": 4.4,
+      "change": 0.1,
+      "change_pct": 2.33,
+      "detected_at": "2026-03-06T23:26:52.702977Z"
+    },
+    {
+      "series_id": "A191RL1Q225SBEA",
+      "name": "Real GDP",
+      "latest_value": 1.4,
+      "change": -3.0,
+      "change_pct": -68.18,
+      "detected_at": "2026-03-06T23:26:52.703009Z"
+    }
+  ],
+  "anomalies": [],
+  "alerts": []
+}
